@@ -6,7 +6,7 @@
     "email": "contact@jcjimenez.me",
     "phone": "+56 9 7707 9917",
     "website": "http://jcjimenez.me",
-    "summary": "Ingeniero Full-stack. Tengo experiencia en resolver problemas complejos utilizando herramientas modernas,\r\ncombinándolas y adaptándolas a las necesidades que permitan obtener una solución. Me encantan los negocios en línea. Tanto desde el punto de vista interno del negocio como hacia el cliente o usuario de servicios. Permanentemente me actualizo en los avances que permiten mantener vigentes los proyectos en los que estoy involucrado. Busco trabajar dentro de un equipo con ideas, diverso y abierto a desarrollar e innovar en todas las áreas posibles del negocio. Tengo experiencia tanto en el sector publico y privado, habiéndome desempeñado exitosamente como Ingeniero de Sistemas y en Evaluación de proyectos, esto, en el sector de salud del Gobierno. Actualmente he llevado a cabo proyectos en línea para Emol.com y El Mercurio SAP.  Mi objetivo principal es participar de un área de alto perfil, donde pueda demostrar adecuadamente todas mis habilidades en cada uno de los proyectos que me sean asignados, liderar y colaborar.",
+    "summary": "Ingeniero Full-stack. Tengo experiencia en resolver problemas complejos buscando y aplicando herramientas modernas, combinándolas y adaptándolas a las necesidades que permitan obtener una solución. Me gusta desarrollar negocios en línea. Tanto desde el punto de vista interno del negocio como hacia el cliente o usuario de servicios. Permanentemente me actualizo con los avances que permiten mantener vigentes los proyectos en los que estoy involucrado. Busco trabajar dentro de un equipo con ideas, diverso y abierto a desarrollar e innovar en todas las áreas posibles del negocio. Tengo experiencia tanto en el sector publico y privado, habiéndome desempeñado exitosamente como Ingeniero de Sistemas y en Evaluación de proyectos, esto, en el sector de salud del Gobierno. Actualmente he llevado a cabo proyectos en línea para Emol.com y El Mercurio SAP.  Mi objetivo principal es participar de un área de alto perfil, liderar, colaborar y donde pueda demostrar adecuadamente todas mis habilidades, en especial en cada uno de los proyectos que me sean asignados",
     "location": {
       "address": "Av. Las Pircas 982",
       "city": "Nos, San Bernardo",
@@ -23,7 +23,7 @@
       {
         "network": "Github",
         "username": "jc_jimenez",
-        "url": "https://github.com/zsyslog"
+        "url": "https://github.com/zsyslog/osx-netflix"
       }
     ]
   },
@@ -64,14 +64,14 @@
       "summary": "Programador y analista. Encargado de generar reportes demográficos con datos de encuestas y censos de latinoamérica",
       "highlights": [
         "Participación en 2 publicaciones de CELADE sobre enevejecimiento en latinoamérica",
-        "Desarrollo de modulos de software para administrar bases de datos jerárquicas con REDATAM+ (www.cepal.org/redatam/)"
+        "Desarrollo de modulos de software para administrar Bases de Datos jerárquicas con REDATAM+ (www.cepal.org/redatam/)"
       ]
     },
     {
       "company": "3DSpirit Marketing (freelance)",
       "position": "Desarrollador",
       "website": "http://www.3dspiritmktg.com",
-      "startDate": "2010-02-02",
+      "startDate": "2010",
       "endDate": "",
       "summary": "Desarrollador de soluciones webapp para marketing, virales y BTL",
       "highlights": [
@@ -123,6 +123,7 @@
       "keywords": [
         "NodeJS",
         "PHP",
+        "ZEND",
         "SQL",
         "NoSQL",
         "Bigdata",
@@ -197,8 +198,10 @@
       "Corrección de errores",
       "Diseño y desarrollo de webapps",
       "Instalación y Optimización",
-      "Queries en SQL",
-      "trabajo en equipo"
+      "Trabajo en equipo",
+      "Liderazgo",
+      "Cloud Computing",
+      "Investigación"
     ]
   }],
   "references": []

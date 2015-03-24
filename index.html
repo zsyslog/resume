@@ -23,10 +23,20 @@
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+
+  <style>
+  	@media print {
+  		a[href]:after{
+  			content:none
+  		}
+  	}
+  </style>
+
 </head>
 
 <body>
 	<div class="container main-container" ng-controller="Controller">
+
 		<div class="row resume-header">
 			<img class="resume-photo img-circle" ng-src="{{resume.basics.picture}}">
 			<h1>{{resume.basics.name.toUpperCase()}}</h1>
@@ -46,8 +56,8 @@
 			</div>
 			</ul>
 		</div>
+
 		<div class="row resume-content">
-			
 			<div class="right-col col-lg-8 pull-right">
 				<div class="summary">
 					<h2>{{}}</h2>
@@ -58,7 +68,8 @@
 					<h2> EXPERIENCIA LABORAL </h2>
 					<div class="work-item" ng-repeat="job in resume.work">
 						<h4>{{job.company}} <a href="{{job.website}}" target="_blank"><span class="fa fa-link"></span> {{job.website.replace('http://www.','')}} </a></h4>
-						<h4 class="reverse">{{job.position}} [{{job.startDate}}<span class="fa fa-arrow-right"></span>{{job.endDate || "Hoy"}}]</h4>
+						<h5 class="range font-archive">{{job.startDate}} <span class="fa fa-arrow-right"></span> {{job.endDate || "Hoy"}}</h5>
+						<h4 class="reverse">{{job.position}}</h4>
 						<p>{{job.summary}}</p>
 						<ul>
 							<li><strong class="reverse rounded">Higlights</strong></li>
@@ -81,7 +92,7 @@
 							    <span class="sr-only">{{item.level}}% Complete</span>
 							  </div>
 							</div>
-							<ul class="skills-list">
+							<ul class="tag-list">
 								<li class="pull-left" ng-repeat="skill in item.keywords" ng-bind="skill"></li>
 							</ul>
 							<div class="clearfix"></div>
@@ -106,9 +117,21 @@
 						</li>
 					</ul>
 				</div>
+				<div class="interests">
+					<h3><span class="fa fa-lightbulb-o"></span> INTERESES</h3>
+					<ul class="tag-list">
+						<li ng-repeat="int in resume.interests[0].keywords" class="tag pull-left">
+							{{int}}
+						</li>
+					</ul>
+				</div>
 			</div>
-		
 		</div>
+		
+		<div class="row resume-footer hidden-print  ">
+			<button class="btn btn-outline btn-lg" onclick="window.print()"><span class="fa fa-print"></span> Imprimir</button>
+		</div>
+
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular-resource.min.js"></script>

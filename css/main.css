@@ -7,6 +7,10 @@ body {
 	margin-top: 80px;
 }
 
+p {
+	text-align: justify;
+}
+
 .resume-header, .resume-content {
 	background-image: url(/resume/images/bg.gif);
 }
@@ -62,11 +66,18 @@ li {
 	font-family: 'Archivo Narrow', sans-serif;
 }
 
+.font-archive {
+	font-family: 'Archivo Narrow', sans-serif;
+}
+.font-libre {
+	font-family: 'Libre Baskerville', serif;
+}
+
 div.skills ul li {
 	margin-bottom: 20px;
 }
 
-ul.skills-list li {
+ul.tag-list li {
 	background: #f1684e;
 	color: white;
 	padding: 2px 6px;
@@ -85,6 +96,10 @@ ul.skills-list li {
 	margin-top: 10px;
 	margin-bottom: 25px;
 }
+h5.range {
+	font-size: 12px;
+}
+
 .resume-header .basic-info {
 	padding-bottom: 25px;
 	border-bottom: 1px solid #ddd;
@@ -105,17 +120,8 @@ ul.skills-list li {
 .work-item h4 span.fa-link {
 	margin-left: 20px;
 }
-
-span.from, span.to {
-	background: #ccc;
-	color: #f1684e;
-	border-radius: 5px;
-	padding: 2px 5px;
-	font-weight: normal;
-	font-size: 11px;
-}
-span.connector {
-	width: 20px;
-	height: 8px;
-	background: #ccc;
+.resume-footer{
+	height: 100px;
+	text-align: center;
+	padding: 30px;
 }
