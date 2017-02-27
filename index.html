@@ -71,7 +71,7 @@
 						<h5 class="range font-archive">{{job.startDate}} <span class="fa fa-arrow-right"></span> {{job.endDate || "Hoy"}}</h5>
 						<h4 class="reverse">{{job.position}}</h4>
 						<p>{{job.summary}}</p>
-						<ul>
+						<ul ng-if="job.highlights.length">
 							<li><strong class="reverse rounded">Higlights</strong></li>
 							<li ng-repeat="highlight in job.highlights"><span class="glyphicon glyphicon-ok"></span> {{highlight}}</li>
 						</ul>

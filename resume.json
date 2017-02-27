@@ -2,11 +2,11 @@
   "basics": {
     "name": "Juan Carlos Jiménez Jamett",
     "label": "Ingeniero en Computación / Developer",
-    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/10e/216/1f0f2b7.jpg",
+    "picture": "https://instagram.fsst1-2.fna.fbcdn.net/t51.2885-19/s150x150/13525308_1059944184095132_440603197_a.jpg",
     "email": "contact@jcjimenez.me",
     "phone": "+56 9 7707 9917",
     "website": "http://jcjimenez.me",
-    "summary": "Ingeniero Full-stack. Tengo experiencia en resolver problemas complejos buscando y aplicando herramientas modernas, combinándolas y adaptándolas a las necesidades que permitan obtener una solución. Me gusta desarrollar negocios en línea. Tanto desde el punto de vista interno del negocio como hacia el cliente o usuario de servicios. Permanentemente me actualizo con los avances que permiten mantener vigentes los proyectos en los que estoy involucrado. Busco trabajar dentro de un equipo con ideas, diverso y abierto a desarrollar e innovar en todas las áreas posibles del negocio. Tengo experiencia tanto en el sector publico y privado, habiéndome desempeñado exitosamente como Ingeniero de Sistemas y en Evaluación de proyectos, esto, en el sector de salud del Gobierno. Actualmente he llevado a cabo proyectos en línea para Emol.com y El Mercurio SAP.  Mi objetivo principal es participar de un área de alto perfil, liderar, colaborar y donde pueda demostrar adecuadamente todas mis habilidades, en especial en cada uno de los proyectos que me sean asignados",
+    "summary": "Ingeniero Full-stack. Tengo experiencia en resolver problemas complejos usando herramientas modernas, combinándolas y/o adaptándolas para tener una solución. Me actualizo constantemente en los avances tecnológicos que me permiten mantener una visión innovadora en los proyectos en los que estoy involucrado. Busco trabajar dentro de un equipo con ideas, diverso y abierto a innovar en todas las áreas posibles del negocio. Tengo experiencia tanto en el sector publico y privado, habiéndome desempeñado exitosamente como gestor de proyectos, desarrollador, ingeniero de sistemas y en evaluación de proyectos en el sector de salud del Gobierno, medios de comunicación y actualmente en la unidad de Gobierno Digital del Ministerio Secretaría General de la Presidencia.",
     "location": {
       "address": "Av. Las Pircas 982",
       "city": "Nos, San Bernardo",
@@ -23,17 +23,30 @@
       {
         "network": "Github",
         "username": "jc_jimenez",
-        "url": "https://github.com/zsyslog/osx-netflix"
+        "url": "https://github.com/zsyslog/branching-model"
       }
     ]
   },
   "work": [
+  {
+      "company": "Unidad Gobierno Digital (UMGD)",
+      "position": "Asesor Desarrollo TI",
+      "website": "http://digital.gob.cl",
+      "startDate": "2015-09-23",
+      "endDate": "",
+      "summary": "Responsable evaluar e implementar proyectos TI",
+      "highlights": [
+        "Migración del portal de Datos Abiertos http://datos.gob.cl a CKAN",
+        "Desarrollo de la plataforma de seguimiento de la Agenda Digital 2020 http://agendadigital.gob.cl",
+        "Jefe de Proyectos"
+      ]
+    },
     {
       "company": "El Mercurio SAP",
       "position": "Ingeniero de Proyectos",
       "website": "http://www.emol.com",
       "startDate": "2011-10-01",
-      "endDate": "",
+      "endDate": "2015-09-20",
       "summary": "Responsable y creador del BackEnd y FrontEnd de tv.emol.com (EmolTV). Involucrado en proyectos BackEnd y FrontEnd de  Automoviles.emol.com, Economicos.cl, Restaurantes.emol.com y tv.emol.com. Administrador del CMS de Guioteca.com.  Cumplo además con tareas sencillas de Administación de Sistemas",
       "highlights": [
         "Desarrollo del videoplayer de EmolTV (Emol.com), Website, Backend y Backoffice",
@@ -119,22 +132,24 @@
   "skills": [
     {
       "name": "Back-End Development",
-      "level": "90",
+      "level": "80",
       "keywords": [
         "NodeJS",
         "PHP",
         "ZEND",
         "SQL",
         "NoSQL",
+        "GIT+GitHub",
         "Bigdata",
         "MongoDB",
         "Elasticsearch",
-        "Solr"
+        "Solr",
+        "Docker"
       ]
     },
     {
       "name": "Front-End Development",
-      "level": "80",
+      "level": "90",
       "keywords": [
         "HTML5",
         "CSS",
@@ -142,6 +157,7 @@
         "AngularJS",
         "jQuery",
         "Bootstrap",
+        "GIT+GitHub",
         "SEO"
       ]
     },
@@ -150,8 +166,9 @@
       "level": "80",
       "keywords": [
         "Rackspace Cloud",
-        "Amazon EC2",
-        "Linode"
+        "Amazon AWS",
+        "Linode",
+        "DigitalOcean"
       ]
     },
     {
@@ -161,19 +178,22 @@
         "Facebook Developers API",
         "Twitter API",
         "Instagram API",
-        "OAuth "
+        "OAuth2",
+        "OpenID Connect"
       ]
     },
     {
       "name": "Ingeniería de Sistemas",
       "level": "65",
       "keywords": [
+        "Docker",
         "Linux",
         "Unix",
         "OSX",
         "Windows",
         "Nginx",
         "Varnish",
+        "Integración continua",
         "Apache",
         "FastCGI",
         "Oracle Virtualbox",
