@@ -5,7 +5,7 @@
     "picture": "https://raw.githubusercontent.com/zsyslog/resume/master/images/profile.png",
     "email": "contact@jcjimenez.me",
     "phone": "+56 9 7707 9917",
-    "website": "http://jcjimenez.me",
+    "website": "http://jcjimenez.me/resume",
     "summary": "Ingeniero Full-stack y Jefe de Proyectos. Experiencia en resolver problemas complejos. Autodidacta y entusiasta de la tecnología e innovación. Experiencia tanto en el sector publico y privado. Actualmente en la Unidad de Gobierno Digital del Ministerio Secretaría General de la Presidencia.",
     "location": {
       "address": "Av. Las Pircas 982",
@@ -23,18 +23,18 @@
       {
         "network": "Github",
         "username": "jc_jimenez",
-        "url": "https://github.com/zsyslog/branching-model"
+        "url": "https://github.com/zsyslog/resume"
       }
     ]
   },
   "work": [
   {
       "company": "División de Gobierno Digital (DGD),Ministerio Secretaría General de la Presidencia",
-      "position": "Asesor Desarrollo TI",
+      "position": "Cordinador de Area de Desarrollo",
       "website": "http://digital.gob.cl",
       "startDate": "2015-09-23",
       "endDate": "",
-      "summary": "Responsable de evaluar e implementar proyectos TI",
+      "summary": "Responsable de coordinar el equipo de desarrollo de proyectos TI",
       "highlights": [
         "Líder deproyecto para transformar el sitio gob.cl en una plataforma integradora con servicios del estado",
         "Líder de proyecto para desarrollo de prototipo funcional de módulos de autoatención para la red de servicios ChileaAtiende",
