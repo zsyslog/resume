@@ -2,17 +2,17 @@
   "basics": {
     "name": "Juan Carlos Jiménez Jamett",
     "label": "Ingeniero en Computación / Developer",
-    "picture": "https://instagram.fsst1-2.fna.fbcdn.net/t51.2885-19/s150x150/13525308_1059944184095132_440603197_a.jpg",
+    "picture": "https://raw.githubusercontent.com/zsyslog/resume/master/images/profile.png",
     "email": "contact@jcjimenez.me",
     "phone": "+56 9 7707 9917",
     "website": "http://jcjimenez.me",
-    "summary": "Ingeniero Full-stack. Tengo experiencia en resolver problemas complejos usando herramientas modernas, combinándolas y/o adaptándolas para tener una solución. Me actualizo constantemente en los avances tecnológicos que me permiten mantener una visión innovadora en los proyectos en los que estoy involucrado. Busco trabajar dentro de un equipo con ideas, diverso y abierto a innovar en todas las áreas posibles del negocio. Tengo experiencia tanto en el sector publico y privado, habiéndome desempeñado exitosamente como gestor de proyectos, desarrollador, ingeniero de sistemas y en evaluación de proyectos en el sector de salud del Gobierno, medios de comunicación y actualmente en la unidad de Gobierno Digital del Ministerio Secretaría General de la Presidencia.",
+    "summary": "Ingeniero Full-stack y Jefe de Proyectos. Experiencia en resolver problemas complejos. Autodidacta y entusiasta de la tecnología e innovación. Experiencia tanto en el sector publico y privado. Actualmente en la Unidad de Gobierno Digital del Ministerio Secretaría General de la Presidencia.",
     "location": {
       "address": "Av. Las Pircas 982",
       "city": "Nos, San Bernardo",
       "region": "Región Metropolitana",
       "countryCode": "CL",
-      "postalCode": "8050000"
+      "postalCode": "8082439"
     },
     "profiles": [
       {
@@ -29,16 +29,18 @@
   },
   "work": [
   {
-      "company": "Unidad Gobierno Digital (UMGD)",
+      "company": "División de Gobierno Digital (DGD),Ministerio Secretaría General de la Presidencia",
       "position": "Asesor Desarrollo TI",
       "website": "http://digital.gob.cl",
       "startDate": "2015-09-23",
       "endDate": "",
-      "summary": "Responsable evaluar e implementar proyectos TI",
+      "summary": "Responsable de evaluar e implementar proyectos TI",
       "highlights": [
-        "Migración del portal de Datos Abiertos http://datos.gob.cl a CKAN",
-        "Desarrollo de la plataforma de seguimiento de la Agenda Digital 2020 http://agendadigital.gob.cl",
-        "Jefe de Proyectos"
+        "Líder deproyecto para transformar el sitio gob.cl en una plataforma integradora con servicios del estado",
+        "Líder de proyecto para desarrollo de prototipo funcional de módulos de autoatención para la red de servicios ChileaAtiende",
+        "Líder de proyecto para desarrollo portal de Datos Abiertos http://datos.gob.cl con CKAN",
+        "Líder de proyecto para desarrollo de la plataforma de seguimiento de la Agenda Digital 2020 http://agendadigital.gob.cl",
+        "Ingeniería de sistemas y mantención de infraestructura en la nube con AWS"
       ]
     },
     {
@@ -47,7 +49,7 @@
       "website": "http://www.emol.com",
       "startDate": "2011-10-01",
       "endDate": "2015-09-20",
-      "summary": "Responsable y creador del BackEnd y FrontEnd de tv.emol.com (EmolTV). Involucrado en proyectos BackEnd y FrontEnd de  Automoviles.emol.com, Economicos.cl, Restaurantes.emol.com y tv.emol.com. Administrador del CMS de Guioteca.com.  Cumplo además con tareas sencillas de Administación de Sistemas",
+      "summary": "Responsable y creador del BackEnd y FrontEnd de tv.emol.com (EmolTV). Involucrado en proyectos BackEnd y FrontEnd de  Automoviles.emol.com, Economicos.cl, Restaurantes.emol.com y tv.emol.com. Administrador del CMS de Guioteca.com.  Tareas básicas de Administación de Sistemas",
       "highlights": [
         "Desarrollo del videoplayer de EmolTV (Emol.com), Website, Backend y Backoffice",
         "Desarrollo del sistema de transcodificación de videos con NodeJS y ffmpeg",
@@ -140,11 +142,11 @@
         "SQL",
         "NoSQL",
         "GIT+GitHub",
+        "Docker+Dockerhub",
         "Bigdata",
         "MongoDB",
         "Elasticsearch",
-        "Solr",
-        "Docker"
+        "Solr"
       ]
     },
     {
@@ -165,39 +167,39 @@
       "name": "Cloud Computing",
       "level": "80",
       "keywords": [
-        "Rackspace Cloud",
         "Amazon AWS",
+        "Rackspace Cloud",
         "Linode",
         "DigitalOcean"
       ]
     },
     {
-      "name": "Social Networks",
-      "level": "70",
-      "keywords": [
-        "Facebook Developers API",
-        "Twitter API",
-        "Instagram API",
-        "OAuth2",
-        "OpenID Connect"
-      ]
-    },
-    {
       "name": "Ingeniería de Sistemas",
-      "level": "65",
+      "level": "70",
       "keywords": [
         "Docker",
         "Linux",
         "Unix",
         "OSX",
         "Windows",
+        "Docker",
         "Nginx",
         "Varnish",
         "Integración continua",
         "Apache",
         "FastCGI",
-        "Oracle Virtualbox",
-        "Oracle Hyperbox"
+        "Oracle Virtualbox"
+      ]
+    },
+    {
+      "name": "Social Networks",
+      "level": "65",
+      "keywords": [
+        "Facebook Developers API",
+        "Twitter API",
+        "Instagram API",
+        "OAuth2",
+        "OpenID Connect"
       ]
     }
   ],
@@ -217,6 +219,7 @@
       "Identificación de soluciones técnicas",
       "Corrección de errores",
       "Diseño y desarrollo de webapps",
+      "Diseño y desarrollo deSaaS y PaaS",
       "Instalación y Optimización",
       "Trabajo en equipo",
       "Liderazgo",
