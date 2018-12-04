@@ -6,7 +6,7 @@
     "email": "contact@jcjimenez.me",
     "phone": "+56 9 7707 9917",
     "website": "http://jcjimenez.me/resume",
-    "summary": "Ingeniero Full-stack y Jefe de Proyectos. Experiencia en resolver problemas complejos. Autodidacta y entusiasta de la tecnología e innovación. Experiencia tanto en el sector publico y privado. Actualmente en la Unidad de Gobierno Digital del Ministerio Secretaría General de la Presidencia.",
+    "summary": "Jefe de Desarrollo e Ingeniero Full-stack. Amplia experiencia en resolver problemas complejos. Autodidacta y entusiasta de la tecnología e innovación. Experiencia tanto en el sector publico y privado. Actualmente en la Unidad de Gobierno Digital del Ministerio Secretaría General de la Presidencia.",
     "location": {
       "address": "Av. Las Pircas 982",
       "city": "Nos, San Bernardo",
@@ -34,8 +34,9 @@
       "website": "http://digital.gob.cl",
       "startDate": "2015-09-23",
       "endDate": "",
-      "summary": "Responsable de coordinar el equipo de desarrollo para proyectos TI",
+      "summary": "Responsable de coordinar las tareas del equipo de desarrollo para proyectos TI",
       "highlights": [
+        "Jefe de desarrollo",
         "Líder de proyecto para transformar el sitio gob.cl en una plataforma integradora con servicios del estado",
         "Líder de proyecto para desarrollo de prototipo funcional de módulos de autoatención para la red de servicios ChileaAtiende",
         "Líder de proyecto para desarrollo portal de Datos Abiertos http://datos.gob.cl con CKAN",
@@ -141,7 +142,7 @@
         "ZEND",
         "SQL",
         "NoSQL",
-        "GIT+GitHub",
+        "GIT+GitHub+Gitlab",
         "Docker+Dockerhub",
         "Bigdata",
         "MongoDB",
@@ -185,7 +186,7 @@
         "Docker",
         "Nginx",
         "Varnish",
-        "Integración continua",
+        "CI+CD",
         "Apache",
         "FastCGI",
         "Oracle Virtualbox"
@@ -219,7 +220,9 @@
       "Identificación de soluciones técnicas",
       "Corrección de errores",
       "Diseño y desarrollo de webapps",
-      "Diseño y desarrollo deSaaS y PaaS",
+      "Diseño y desarrollo de SaaS y PaaS",
+      "Instalación y Optimización",
+      "Desarrollo Ágil",
       "Instalación y Optimización",
       "Trabajo en equipo",
       "Liderazgo",
@@ -227,5 +230,10 @@
       "Investigación"
     ]
   }],
-  "references": []
+  "references": [
+    {
+      "name": "Kareen Schramm",
+      "reference": "Coordinadora de Políticas y Estudios, División de Gobierno Digital. kschramm at minsegpres.gob.cl"
+    }
+  ]
 }
