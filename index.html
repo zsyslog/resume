@@ -82,6 +82,14 @@
 			</div>
 
 			<div class="left-col col-lg-4 pull-left">
+				<div class="interests">
+					<h3><span class="fa fa-lightbulb-o"></span> INTERESES</h3>
+					<ul class="tag-list">
+						<li ng-repeat="int in resume.interests[0].keywords" class="tag pull-left">
+							{{int}}
+						</li>
+					</ul>
+				</div>
 				<div class="skills">
 					<h3><span  class="glyphicon glyphicon-th-list"></span> HABILIDADES</h3>
 					<ul>
@@ -114,14 +122,6 @@
 						<li ng-repeat="item in resume.languages">
 							<span class="language-name">{{item.language}}</span>
 							<span class="language-fluency reverse">{{item.fluency}}</span>
-						</li>
-					</ul>
-				</div>
-				<div class="interests">
-					<h3><span class="fa fa-lightbulb-o"></span> INTERESES</h3>
-					<ul class="tag-list">
-						<li ng-repeat="int in resume.interests[0].keywords" class="tag pull-left">
-							{{int}}
 						</li>
 					</ul>
 				</div>
