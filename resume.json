@@ -28,6 +28,15 @@
     ]
   },
   "work": [
+    {
+      "company": "Subsecretaría de la Cultura y de las Artes",
+      "position": "Jefe de Tecnologías de la Información y las Comunicaciones",
+      "website": "https://cultura.gob.cl",
+      "startDate": "2019-01-09",
+      "endDate": "",
+      "summary": "Jefe del área responsable de generar y mantener las herramientas tecnológicas del ministerio, además de elaborar y administrar presupuestos y coordinar equipos técnicos. CIO",
+      "highlights": [] 
+    }, 
   {
       "company": "División de Gobierno Digital (DGD), Ministerio Secretaría General de la Presidencia",
       "position": "Coordinador del Area de Desarrollo",
