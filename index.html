@@ -12,8 +12,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-	<link href='//fonts.googleapis.com/css?family=Archivo+Narrow:400,700' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="css/main.css">
 
@@ -67,7 +67,7 @@
 				<div class="work">
 					<h2> EXPERIENCIA LABORAL </h2>
 					<div class="work-item" ng-repeat="job in resume.work">
-						<h4>{{job.company}} <a href="{{job.website}}" target="_blank"><span class="fa fa-link"></span> {{job.website.replace('http://www.','')}} </a></h4>
+						<h4>{{job.company}} <a href="{{job.website}}" target="_blank"><span class="fa fa-link"></span> {{job.website.replace('https://www.','')}} </a></h4>
 						<h5 class="range font-archive">{{job.startDate}} <span class="fa fa-arrow-right"></span> {{job.endDate || "Hoy"}}</h5>
 						<h4 class="reverse">{{job.position}}</h4>
 						<p>{{job.summary}}</p>
