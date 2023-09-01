@@ -12,7 +12,7 @@ p {
 }
 
 .resume-header, .resume-content {
-	background-image: url(/resume/images/bg.gif);
+	background-image: url(/images/bg.gif);
 }
 .resume-header {
 	text-align: center
